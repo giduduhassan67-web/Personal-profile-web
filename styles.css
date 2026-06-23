@@ -80,7 +80,7 @@ body{
     border-right: 3px solid white;
     width: 0;
     animation:
-        typing 3s steps(14, end) forwards,
+        typing 3s steps(14, end) infinite,
         blink .7s infinite;
 }
 
