@@ -66,12 +66,32 @@ body{
         color:#f59e0b; 
         font-size:1.1rem; 
 }
-.hero-name{ 
+/* .hero-name{ 
         font-size:4rem; 
         color:white; 
         margin:10px 0;
         animation:slideIn 2.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-} 
+}  */
+  .hero-name{
+    font-size: 4rem;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid white;
+    width: 0;
+    animation:
+        typing 3s steps(14, end) infinite,
+        blink .7s infinite;
+}
+
+@keyframes typing{
+    from{width:0;}
+    to{width:100%;}
+}
+
+@keyframes blink{
+    50%{border-color:transparent;}
+}
 .hero-title{ 
           color:#d1d5db;
            margin-bottom:15px; 
