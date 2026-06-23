@@ -70,6 +70,7 @@ body{
         font-size:4rem; 
         color:white; 
         margin:10px 0;
+        animation:slideIn 2.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 } 
 .hero-title{ 
           color:#d1d5db;
